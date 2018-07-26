@@ -6,8 +6,7 @@
   "private": true,
   "scripts": {
     "start": "node build/dev-server.js",
-    "build": "node build/build.js",
-    "gitpush": "git init && git add -A && git commit -m 'Update to the Boilerplate' && git push origin master"
+    "build": "node build/build.js"
   },
   "dependencies": {
     "jsstore": "^2.1.2",
